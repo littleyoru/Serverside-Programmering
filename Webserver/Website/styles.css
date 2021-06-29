@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: burlywood;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    background-color: gainsboro;
+    box-shadow: 0 0 25px chocolate;
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-size: larger;
+    padding: 10px 0;
+    font-weight: 900;
+}
+.gallery {
+    align-self: center;
+    margin: 30px 0;
+    display: inline-block;
+}
+.container {
+    padding: 10px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.container label {
+    white-space: pre-wrap;
+}
+.container img {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+    align-self: center;
+    clear: both;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+}
